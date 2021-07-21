@@ -1,4 +1,3 @@
-
 // Variáveis
 
 var data = new Date()

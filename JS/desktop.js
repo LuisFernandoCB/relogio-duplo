@@ -1,7 +1,12 @@
-// Checa o disposito do visitante
+var plat = window.confirm("Você está no Computador? \n \nSim--> OK \n\nNão--> Cancelar ")
 
-if (window.matchMedia("(max-width:500px)").matches) {
-    location.href = "indexMobile.html";
- }
- 
- 
+if (plat == true) {
+    
+} else {
+    var plat2 = window.confirm('Este site foi desenvolvido apenas para computador, é recomendado que você acesse o site específico para Mobile, escolha a opção "OK" para ser redirecionado ao site correto.')   
+    if (plat2 == true) {
+        location.href = "../indexMobile.html";
+    } else {
+        alert("Você foi avisado.")
+    }
+}

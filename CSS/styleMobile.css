@@ -23,8 +23,7 @@ h1 {
 
 main {
     background-color: white;
-    width: 700px;
-    height: 450px;
+    width: 300px;
     margin: auto;
     border-radius: 20px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.438);
@@ -42,7 +41,7 @@ img {
     padding-top: 15px;
     margin: auto;
     display: block;
-    width: 300px;
+    width: 270px;
 }
 
 footer > p {
