@@ -6,6 +6,7 @@ if (window.matchMedia("(max-width:1050px)").matches) {
 
 if (window.matchMedia("(max-width:400px)").matches) {
     location.href = "indexMobile.html";
+    break
 }
 
 // Variáveis
