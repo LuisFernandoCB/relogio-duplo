@@ -27,6 +27,7 @@ main {
     margin: auto;
     border-radius: 20px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.438);
+    padding:10px;
 }
 
 
@@ -42,7 +43,7 @@ img {
     margin: auto;
     display: block;
     width: 270px;
-    height: 200px;
+    height: 260px;
 }
 
 footer > p {
