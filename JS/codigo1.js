@@ -1,13 +1,3 @@
-// Checa o disposito do visitante
-
-if (window.matchMedia("(max-width:1050px)").matches) {
-    location.href = "index.html";
-}
-
-if (window.matchMedia("(max-width:400px)").matches) {
-    location.href = "indexMobile.html";
-    break
-}
 
 // Variáveis
 
