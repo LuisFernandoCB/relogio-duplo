@@ -9,9 +9,8 @@ var segundos = data.getSeconds()
 var txtHora = document.querySelector("#hora")
 var imagem = document.querySelector("#imagem")
 
-
 //Mostra a hora atual
-
+hora = 8
 txtHora.innerHTML += `<p>Agora são ${hora} Horas</p>`
 
 // Altera a imagem conforme a hora
@@ -19,7 +18,7 @@ txtHora.innerHTML += `<p>Agora são ${hora} Horas</p>`
 if (hora >= 6 && hora < 8) {
    imagem.innerHTML = '<img src="IMAGES/amanhecer.png" alt="KKK">'
 } else if (hora >= 8 && hora < 17) {
-   imagem.innerHTML = '<img src="IMAGES/dia.png" alt="KKK">'
+   imagem.innerHTML = '<img src="IMAGES/dia.png" alt="KKK" >'
 } else if (hora >= 17 && hora < 18) {
    imagem.innerHTML = '<img src="IMAGES/pordosol.png" alt="KKK">'
 } else if (hora >= 18 && hora < 19) {
@@ -31,3 +30,5 @@ if (hora >= 6 && hora < 8) {
 } else {
    imagem.innerHTML = "<p>Cuidado!!! Você está em um MULTIVERSO</p>"
 }
+
+
