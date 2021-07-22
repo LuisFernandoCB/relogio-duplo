@@ -10,7 +10,7 @@ var txtHora = document.querySelector("#hora")
 var imagem = document.querySelector("#imagem")
 
 //Mostra a hora atual
-hora = 8
+hora = 6
 txtHora.innerHTML += `<p>Agora são ${hora} Horas</p>`
 
 // Altera a imagem conforme a hora
@@ -30,5 +30,3 @@ if (hora >= 6 && hora < 8) {
 } else {
    imagem.innerHTML = "<p>Cuidado!!! Você está em um MULTIVERSO</p>"
 }
-
-

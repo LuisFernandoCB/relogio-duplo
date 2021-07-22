@@ -45,9 +45,11 @@ function clicou1() {
     if (hora >= 6 && hora < 8) {
         document.body.style.background = "dodgerblue"
         document.body.style.color = "khaki"
+        imagem.innerHTML = '<img src="IMAGES/dia.png" alt="KKK" >'
     } else {
         document.body.style.background = "khaki"
         document.body.style.color = "darkolivegreen"
+        imagem.innerHTML = '<img src="IMAGES/amanhecer.png" alt="KKK">'
     }
 }
 
@@ -59,10 +61,19 @@ function clicou2() {
 
     }
 }
-function clicou3() {
 
+function clicou3() {
+    if (a) { 
+
+    } else {
+
+    }
 }
 function clicou4() {
+    if (a) { 
 
+    } else {
+        
+    }
 }
 //parei aqui, terminar de programar os botões
