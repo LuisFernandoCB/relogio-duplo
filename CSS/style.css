@@ -47,6 +47,7 @@ main {
     background-color: red;
     border-radius: 35px;
     margin: 0px auto 17px 17px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.309);
 }
 
 #tema2 {
@@ -55,6 +56,7 @@ main {
     background-color: orangered;
     border-radius: 35px;
     margin: 17px auto 17px 17px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.309);
 }
 #tema3 {
     width: 100px;
@@ -62,6 +64,7 @@ main {
     background-color: orange;
     border-radius: 35px;
     margin: 17px auto 17px 17px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.309);
 }
 #tema4 {
     width: 100px;
@@ -69,6 +72,7 @@ main {
     background-color: yellow;
     border-radius: 35px;
     margin: 17px auto 17px 17px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.309);
 }
 
 main p {
