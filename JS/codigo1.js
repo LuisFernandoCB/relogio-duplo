@@ -10,7 +10,7 @@ var txtHora = document.querySelector("#hora")
 var imagem = document.querySelector("#imagem")
 
 //Mostra a hora atual
-hora = 5
+
 txtHora.innerHTML += `<p>Agora são ${hora} Horas</p>`
 
 // Altera a imagem conforme a hora
