@@ -34,7 +34,7 @@ main {
 main p {
     text-align: center;
     color: black;
-    padding-top: 30px;
+    padding-top: 0px;
     font-size: 42px;
 }
 
@@ -56,4 +56,42 @@ p#info {
     background-color: white;
     text-align: center;
     font-size: 23px;
+}
+
+#botoes {
+    display: inline-flex;
+}
+
+#tema1 {
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    border-radius: 35px;
+    margin: 17px auto 17px 17px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.309);
+}
+
+#tema2 {
+    width: 70px;
+    height: 70px;
+    background-color: orangered;
+    border-radius: 35px;
+    margin: 17px auto 17px 17px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.309);
+}
+#tema3 {
+    width: 70px;
+    height: 70px;
+    background-color: orange;
+    border-radius: 35px;
+    margin: 17px auto 17px 17px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.309);
+}
+#tema4 {
+    width: 70px;
+    height:70px;
+    background-color: yellow;
+    border-radius: 35px;
+    margin: 17px auto 17px 17px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.309);
 }
