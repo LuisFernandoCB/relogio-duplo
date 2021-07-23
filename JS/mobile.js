@@ -1,4 +1,4 @@
-var plat = window.confirms("Você está no Celular? \n \nSim--> OK \n\nNão--> Cancelar ")
+var plat = window.confirm("Você está no Celular? \n \nSim--> OK \n\nNão--> Cancelar ")
 
 if (plat == true) {
     
