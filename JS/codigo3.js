@@ -227,4 +227,3 @@ function clicou4() {
         btn4.style.background = "rgb(50, 42, 97)e"
     }
 }
-
